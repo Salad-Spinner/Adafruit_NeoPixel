@@ -1,5 +1,5 @@
-// Maps a potentiometer onto an 8-LED NeoPixel power dial: a green-to-pink
-// ramp that lights one LED per threshold as the dial is turned up.
+// Uses a potentiometer with a 8-LED NeoPixel to make a 'power dial'.
+// As you turn the dial, more LED's light up.
 //
 // Wiring:
 //   Potentiometer outer legs -> 5V and GND, wiper (middle leg) -> A0
