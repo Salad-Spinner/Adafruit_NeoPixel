@@ -18,7 +18,7 @@ Compatibility notes: Port A is not supported on any AVR processors at this time
 
 ### First Method
 
-![image]([https://user-images.githubusercontent.com/36513474/68967967-3e37f480-0803-11ea-91d9-601848c306ee.png](https://raw.githubusercontent.com/Salad-Spinner/Adafruit_NeoPixel/refs/heads/master/Adafruit%20NeoPixel%20Library%20Selection.png))
+![image](https://raw.githubusercontent.com/Salad-Spinner/Adafruit_NeoPixel/refs/heads/master/Adafruit%20NeoPixel%20Library%20Selection.png)
 
 1. In the Arduino IDE, navigate to Sketch > Include Library > Manage Libraries
 1. Then the Library Manager will open and you will find a list of libraries that are already installed or ready for installation.
