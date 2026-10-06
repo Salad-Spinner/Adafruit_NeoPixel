@@ -134,13 +134,11 @@ plus a common ground between the ring and the board.
 
 | Example | What it does | Extra hardware |
 | --- | --- | --- |
-| [`demo_modes`](examples/demo_modes) | Cycles six effects every 6 seconds: loading spinner, analog gauge, fireplace flicker, rainbow wheel, emergency strobe, sleep | none (pot optional) |
+| [`demo_modes`](examples/demo_modes) | Cycles six effects every 6 seconds: loading spinner, analog gauge, fireplace flicker, rainbow wheel, emergency strobe, sleep | none |
 | [`potentiometer_power_dial`](examples/potentiometer_power_dial) | Turns a dial into a green-to-pink power ramp, one LED per threshold | potentiometer on A0 |
-| [`tilt_switch_light_cup`](examples/tilt_switch_light_cup) | Pouring illusion: a tilt switch fills the ring with a water level while the cup's own bulb dims | tilt switch on pin 2, cup LED on pin 3 |
 
-`demo_modes` self-simulates its sensor input, so it runs on a bare ring. Set
-`USE_POTENTIOMETER` to `true` at the top of the sketch to drive the gauge mode
-from a real potentiometer on A0 instead.
+`demo_modes` runs on a bare ring. Its gauge mode simulates its own sensor input
+over time, so no external hardware is needed for any of the six modes.
 
 ## Contributing
 
